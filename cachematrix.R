@@ -1,6 +1,6 @@
 # creates a list wrapping a given matrix "x"
-# that adds caching capabilities for calculating
-# an inverse of the matrix "x"
+# that adds caching capabilities for making
+# a calculation on the matrix "x"
 makeCacheMatrix <- function(x = matrix()) {
   cached <- NULL
   set <- function (y) {
